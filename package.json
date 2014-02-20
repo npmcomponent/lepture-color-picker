@@ -1,31 +1,18 @@
 {
-  "family": "lepture",
-  "name": "color-picker",
-  "version": "0.1.1",
+  "name": "lepture-color-picker",
   "description": "Color picker with predefined colors.",
-  "homepage": "http://lab.lepture.com/color-picker/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lepture/color-picker.git"
+  "version": "0.1.1",
+  "keywords": [
+    "color",
+    "input"
+  ],
+  "main": "index.js",
+  "styles": [
+    "color-picker.css"
+  ],
+  "dependencies": {
+    "component-events": "git://github.com/npmcomponent/component-events.git",
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git"
   },
-
-  "devDependencies": {
-    "component": "*",
-    "mocha-browser": "*"
-  },
-
-  "scripts": {
-    "test": "make travis"
-  },
-
-  "spm": {
-    "alias": {
-      "$": "$",
-      "events": "arale/events/1.1.0/events"
-    },
-    "output": [
-      "color-picker.js",
-      "color-picker.css"
-    ]
-  }
+  "license": "MIT"
 }

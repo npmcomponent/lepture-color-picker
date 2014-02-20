@@ -1,5 +1,5 @@
-var events = require('events');
-var emitter = require('emitter');
+var events = require('component-events');
+var emitter = require('component-emitter');
 
 module.exports = ColorPicker;
 
